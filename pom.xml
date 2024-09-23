@@ -3,45 +3,28 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mediarithmics</groupId>
+    <groupId>io.github.nadberezny</groupId>
     <artifactId>liquibase-clickhouse</artifactId>
-    <version>0.7.3-SNAPSHOT</version>
+    <version>0.1.1</version>
     <packaging>jar</packaging>
-    <inceptionYear>2020</inceptionYear>
+    <inceptionYear>2024</inceptionYear>
 
     <name>Liquibase extension for ClickHouse</name>
     <description>A Liquibase extension for the ClickHouse database.</description>
-    <url>https://github.com/mediarithmics/liquibase-clickhouse</url>
+    <url>https://github.com/nadberezny/liquibase-clickhouse</url>
 
     <organization>
-        <name>Mediarithmics</name>
-        <url>https://www.mediarithmics.com</url>
+        <name>nadberezny</name>
+        <url>https://nadberezny.github.io</url>
     </organization>
 
     <developers>
         <developer>
-            <id>pdalpra@mediarithmics.com</id>
-            <name>Pierre Dal-Pra</name>
-            <organization>Mediarithmics</organization>
-        </developer>
-        <developer>
-            <id>skireev@mediarithmics.com</id>
-            <name>Sergei Kireev</name>
-            <organization>mediarithmics</organization>
-        </developer>
-        <developer>
-            <id>iepimakhov@mediarithmics.com</id>
-            <name>Igor Epimakhov</name>
-            <organization>mediarithmics</organization>
+            <id>nadberezny</id>
+            <name>Juliusz Nadberezny</name>
+            <organization>nadberezny</organization>
         </developer>
     </developers>
-
-    <scm>
-        <connection>scm:git:git:@github.com:mediarithmics/liquibase-clickhouse.git</connection>
-        <developerConnection>scm:git:git:@github.com:mediarithmics/liquibase-clickhouse.git</developerConnection>
-        <url>https://github.com/mediarithmics/liquibase-clickhouse</url>
-        <tag>HEAD</tag>
-    </scm>
 
     <licenses>
         <license>
@@ -67,7 +50,7 @@
         <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <clickhouse-jdbc.version>0.4.5</clickhouse-jdbc.version>
+        <clickhouse-jdbc.version>0.6.5</clickhouse-jdbc.version>
         <liquibase.version>4.21.1</liquibase.version>
         <junit.version>5.9.2</junit.version>
         <test-containers.version>1.18.0</test-containers.version>
